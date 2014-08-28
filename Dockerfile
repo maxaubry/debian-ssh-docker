@@ -12,7 +12,7 @@ RUN useradd -m -d /home/hexanet -s /bin/bash hexanet
 
 RUN mkdir -p /home/hexanet/.ssh
 
-RUN echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5p+1qXm/I5rDhaP3ZEAOxD2d97cAtBkWgLdMJpVMJdBCdy1wRioD/hx7tFZ7xLLpCZIr/YSYSwMLIol9QQl/p+fB3U//KieJJDf55fygH9WFZ31Oz9dNIcm4qqnK62fpoEAbL+siiwEiruITqnJmnYl8m3VtYbE21JlcmtQ5jeqA7emwBUKohdXi/GyysSVC8UGwKFfUZoo67jVuw9mFHe6FrrbgRpevZARnFS8ze4QqTG7FaFhCd7dBrebzI0CLGgDEQzQNXzRy39Uzz0vf92iWYCY5LKszP1I2DhfbX9vcJexU6uSTjIsAa4dRB6GFxrJ7QSersIiWMjrg2iF8B max@Ansible-1" >> /home/hexanet/.ssh/authorized_keys
+RUN echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDc/HDOYzIXzH7m30dJhfl6d391Qh8430MDebv6x/ZU0iGmOqYosIrajVvG4Ou3LfCRxlu7JlNnpJMOnH4QRonCemF2QT587fcJA5nzzYSWbA6gKjM2TwamMojXj3C5b+m9MhqgX3P9hFTJtAA+SoywMEKUokNqU5msDh5VNCFJB2Nly7SVcg3gHtehaXWbKcqZGP9omRb2TTUYdRIC8jn1reKvykEvu0w0IxMjnn3CZOZ0De/e9/OM6uV4TWL+tCZTckH+HLq+1+CoLs3OnRnKMkkjLZTez4+/LIEd0njm7mbWFyHyIo6ZdgUTTM/vU1ls39CQTJZJ7id4zpeInziR max@debian" >> /home/hexanet/.ssh/authorized_keys
 
 EXPOSE 22
 
